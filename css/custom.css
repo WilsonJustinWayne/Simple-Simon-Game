@@ -1,0 +1,38 @@
+body {
+    height: 40em;
+    background-color: navajowhite;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.container {
+    height: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.spacer-row {
+    height: calc(30%);
+}
+
+.simon-button {
+    border-radius: 10%;
+    height: calc(100% - 1em);
+    border: black solid .1em;
+}
+
+.square-row {
+    height: calc(20%);
+}

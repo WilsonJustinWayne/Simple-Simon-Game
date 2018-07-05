@@ -5,10 +5,39 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src=""></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <title>Simple Simon Game</title>
+    <!--[CUSTOM CSS]-->
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
+<div class="container">
+    <div class="row spacer-row"></div>
+    <div class="row square-row">
+        <div class="col-4"></div>
+        <div id="redButton" class="col-2 simon-button red m-2 align-middle"></div>
+        <div id="blueButton" class="col-2 simon-button blue m-2 align-middle"></div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row square-row align-middle">
+        <div class="col-4"></div>
+        <div id="greenButton" class="col-2 simon-button green m-2"></div>
+        <div id="yellowButton" class="col-2 simon-button yellow m-2"></div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row spacer-row"></div>
+</div>
 
+
+
+<!--Scripts here-->
+<script src="js/jquery-2.2.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!--[CUSTOM JS]-->
+<script src="js/main.js"></script>
 </body>
 </html>
