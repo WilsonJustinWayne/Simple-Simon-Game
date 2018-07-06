@@ -1,26 +1,37 @@
+:root {
+    --colBlue: #00F;
+    --colHighlightBlue: #77F;
+    --colGreen: #0F0;
+    --colHighlightGreen: #7F7;
+    --colRed: #F00;
+    --colHighlightRed: #F77;
+    --colYellow: #DD0;
+    --colHighlightYellow: #FF7;
+}
+
 body {
     height: 40em;
     background-color: navajowhite;
 }
 
 .blue {
-    background-color: blue;
+    background-color: var(--colBlue);
 }
 
-.container {
+.container-fluid {
     height: 100%;
 }
 
 .green {
-    background-color: green;
+    background-color: var(--colGreen);
 }
 
 .red {
-    background-color: red;
+    background-color: var(--colRed);
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: var(--colYellow);
 }
 
 .spacer-row {
@@ -29,10 +40,19 @@ body {
 
 .simon-button {
     border-radius: 10%;
-    height: calc(100% - 1em);
+    height: 100%;
     border: black solid .1em;
 }
 
 .square-row {
     height: calc(20%);
+}
+
+.invisible {
+    display: none;
+}
+
+.startButton {
+    background-color: black;
+    color: white;
 }

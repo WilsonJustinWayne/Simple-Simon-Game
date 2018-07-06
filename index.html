@@ -13,19 +13,34 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid mx-0">
     <div class="row spacer-row"></div>
     <div class="row square-row">
         <div class="col-4"></div>
-        <div id="redButton" class="col-2 simon-button red m-2 align-middle"></div>
-        <div id="blueButton" class="col-2 simon-button blue m-2 align-middle"></div>
+        <div class="col-2 p-2 ">
+            <div id="redButton" class="simon-button red"></div>
+        </div>
+        <div class="col-2 p-2 ">
+            <div id="blueButton" class="simon-button blue"></div>
+        </div>
         <div class="col-4"></div>
     </div>
-    <div class="row square-row align-middle">
+    <div class="row square-row">
         <div class="col-4"></div>
-        <div id="greenButton" class="col-2 simon-button green m-2"></div>
-        <div id="yellowButton" class="col-2 simon-button yellow m-2"></div>
+        <div class="col-2 p-2 ">
+            <div id="greenButton" class="simon-button green"></div>
+        </div>
+        <div class="col-2 p-2 ">
+            <div id="yellowButton" class="simon-button yellow"></div>
+        </div>
         <div class="col-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2 px-5">
+            <button id="startButton" class="btn startButton ">Start Game</button>
+        </div>
+        <div class="col-5"></div>
     </div>
     <div class="row spacer-row"></div>
 </div>
